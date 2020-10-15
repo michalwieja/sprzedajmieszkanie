@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('./blue-triangle-bg.jpg');
+
+
+}
+
+
+header {
+    height: 10vh;
+    background-color: #fff;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    height: 100%;
+
+}
+
+.logo img {
+    height: 100%;
+}
+
+
+.tel {
+    font-size: 5vh;
+
+}
+
+main .wrapper {
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+
+}
+
+.headers {
+    text-align: center;
+}
+
+ul {
+    list-style: square;
+    font-size: 24px;
+}
+
+.form {
+    width: 40%;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+i {
+    color: white;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #aaa !important;
+}
+
+
+footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+
+
+
+
+
+    .tel {
+        font-size: 2vh;
+    }
+
+    main .wrapper {
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .content {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .fa-8x,
+    .fa-4x {
+        font-size: 2em !important;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+
+
+}
