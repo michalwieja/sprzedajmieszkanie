@@ -61,14 +61,16 @@
                     <p class="h4 mb-4">Skontaktuj się z nami</p>
 
                     <!-- Name -->
-                    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Imie">
+                    <input type="text" name="imie" id="defaultContactFormName" class="form-control mb-4"
+                        placeholder="Imie">
 
                     <!-- Email -->
-                    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+                    <input type="email" name="email" id="defaultContactFormEmail" class="form-control mb-4"
+                        placeholder="E-mail">
 
                     <!-- Subject -->
                     <label>Miejscowość</label>
-                    <select class="browser-default custom-select mb-4">
+                    <select name="miejscowosc" class="browser-default custom-select mb-4">
                         <option value="" disabled>Choose option</option>
                         <option value="1">Katowice</option>
                         <option value="2">Siemianowice Śląskie</option>
@@ -78,8 +80,8 @@
 
                     <!-- Message -->
                     <div class="form-group">
-                        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"
-                            placeholder="treść wiadomości"></textarea>
+                        <textarea name="wiadomosc" class="form-control rounded-0" id="exampleFormControlTextarea2"
+                            rows="3" placeholder="treść wiadomości"></textarea>
                     </div>
 
                     <label for="phone">Podaj swój numer telefonu</label>
